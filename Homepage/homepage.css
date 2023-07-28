@@ -163,7 +163,7 @@ html{
 
 .option .box-container .box .album{
    margin:2rem;
-   border-radius: 50%;
+   /* border-radius: 50%; */
    object-fit: contain;
    height: 10rem;
    width: 10rem;
