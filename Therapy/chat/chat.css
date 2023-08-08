@@ -24,10 +24,6 @@ html{
    overflow-x: hidden;
 }
 
-
-
-
-
 .message{
    position: sticky;
    top: 2rem;
@@ -98,6 +94,9 @@ html{
    background-color: var(--main-color);
 }
 
+.option .box-container .box:hover{
+   background-color: blue;
+}
 .form-container form{
    margin:0 auto;
    max-width: 50rem;
@@ -134,7 +133,7 @@ html{
    display: grid;
    grid-template-columns: repeat(auto-fit, 27rem);
    grid-template-rows: auto;
-   gap:2.5rem;
+   gap:5rem;
    align-items: flex-start;
    justify-content: center;
    display: flex;
@@ -151,14 +150,9 @@ html{
    text-align: center;
    box-shadow: 2px 2px 4px rgba(0.5,0.5, 0.5, 0.5);
    padding: 20px;
-   width: 200px;
+   width: 260px;
    height: 200px;
    padding-top: 0;
-   margin-top: 30px;
-}
-
-.option .box-container .box:hover{
-   background-color: blue;
 }
 
 .option .box-container .box .album{
@@ -232,159 +226,25 @@ p{
    margin-right: 50px;
    margin-left: 30px;
    text-align: justify;
+   margin-bottom: 50px;
 }
 
 h3{
    font-size: 25px;
    text-align: center;
-   margin-top: 50px;
 }
 
-h4{
-   font-size: 90px;
-   margin-left: 20px;
+
+.icon{
+   width: 50px;
+   height: 50px;
+}
+
+.icon i{
+   margin-right: .8rem;
+   color:var(--main-color);
 }
 
 h5{
-   font-size: 30px;
-   margin-left: 20px;
-   margin-top: -20px;
-}
-
-table{
-   margin-top: 60px;
-   margin-bottom: 80px;
-}
-
-/* Float four columns side by side */
-.column {
-   float: left;
-   width: 25%;
-   padding: 0 5px;
- }
- 
- .row {margin: 0 -5px;}
- 
- /* Clear floats after the columns */
- .row:after {
-   content: "";
-   display: table;
-   clear: both;
- }
- 
- /* Responsive columns */
- @media screen and (max-width: 600px) {
-   .column {
-     width: 100%;
-     display: block;
-     margin-bottom: 10px;
-     
-   }
- }
- 
- /* Style the counter cards */
- .card {
-   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-   padding: 16px;
-   text-align: center;
-   /* background-color: #444; */
-   color: blue;
-   height: 100%;
- }
-
- .card:hover{
-   background-color: rgba(95, 95, 214, 0.867);
-   color: white;
- }
- 
- .fa {font-size:50px;}
-
- .p1{
-   text-align: center;
-   margin-bottom: 20px;
- }
-
- .parallax-section{
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	position: relative;
-}
-.overlay{
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-}
-#testimonial{
-	padding: 130px 0 95px;
-	
-}
-#testimonial .overlay{
-	background: transparent;
-}
-.ts-testimonial-slide{
-	text-align: center;
-	color: black;
-	width: 85%;
-	margin: 0 auto;
-   margin-bottom: 50px;
-   margin-top: -30px;
-}
-.ts-testimonial-slide p{
-	font-size: 24px;
-	line-height: 36px;
-	font-style: italic;
-	font-family: 'Droid Serif';
-	margin-bottom: 35px;
-}
-.ts-testimonial-slide .ts-testimonial-item {
-  margin-bottom: 15px;
-}
-.ts-testimonial-slide .ts-testimonial-item .icon-client{
-	background: #ffffff;
-	width: 29px;
-	height: 29px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-	float: left;
-	text-align: center;
-	line-height: 29px;
-	margin-top: 2px;
-}
-.ts-testimonial-slide .ts-testimonial-item .infor-client {
-  display: inline-block;
-  margin: 0 auto;
-  width: auto;
-}
-.ts-testimonial-slide .ts-testimonial-item  .client-name{
-	padding-left: 38px;
-	font-size: 12.8px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-family: 'Montserrat';
-	display: block;
-	line-height: normal;
-	white-space: nowrap;
-   color: #1a1a1a;
-}
-.ts-testimonial-slide .ts-testimonial-item  .client-position{
-	font-size: 12px;
-	font-style: italic;
-	line-height: normal;
-	padding-left: 38px;
-	display: block;
-	text-align: left;
-   color: black;
-}
-.ts-testimonial-slide .ts-testimonial-item  .client-position a{
-	color: black;
-}
-.ts-testimonial-slide .ts-testimonial-item  .client-position a:hover{
-	color: #5ed9e7;
+    font-size: 40px;
 }
