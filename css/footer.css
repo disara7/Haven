@@ -8,9 +8,11 @@ body{
 	padding:0;
 	box-sizing: border-box;
 }
-.container{
+.container1{
 	max-width: 1170px;
 	margin:auto;
+	align-content: center;
+	margin-left: 250px;
 }
 .row{
 	display: flex;
@@ -21,11 +23,16 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-    padding: 70px 0;
+    padding: 10px;
+	align-self: center;
+ 
+	
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 30px;
 }
 .footer-col h4{
 	font-size: 18px;

@@ -28,7 +28,7 @@
 
 body{
     min-height: 100vh;
-    background-color: var(--primary-color);
+    background-color: black;
 }
 body.dark{
     --primary-color: #3A3B3C;
@@ -50,13 +50,13 @@ body.dark{
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
+    background: gray;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #0b3cc1;
+    background: black;
 }
 
 body.dark::-webkit-scrollbar-thumb:hover,
@@ -207,7 +207,7 @@ body.dark .switch:before{
 .dashboard{
     position: relative;
     left: 250px;
-    background-color: var(--panel-color);
+    background-color: transparent;
     min-height: 100vh;
     width: calc(100% - 250px);
     padding: 10px 14px;
@@ -226,7 +226,7 @@ nav.close ~ .dashboard{
     justify-content: space-between;
     align-items: center;
     padding: 10px 14px;
-    background-color: var(--panel-color);
+    background-color: transparent;
     transition: var(--tran-05);
     z-index: 10;
 }

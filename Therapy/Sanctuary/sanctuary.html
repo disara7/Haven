@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="../../Themes/side_bar/side_bar_style.css">
+    <link rel="stylesheet" href="../Sanctuary/sanctuary.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Therapy | Sanctuary</title> 
+    <style type="text/css">
+        
+    #starField, .stars {
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    .stars {  background-image: 
+        radial-gradient(2px 2px at 20px 30px, #eee, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 50px 160px, #ddd, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0)),
+        radial-gradient(1px 1px at 35px 125px, #eee, rgba(0,0,0,0)),
+        radial-gradient(3px 3px at 75px 145px, #fff, rgba(0,0,0,0)),
+        radial-gradient(1px 1px at 185px 65px, #ddd, rgba(0,0,0,0)),
+        radial-gradient(1px 1px at 35px 85px, #fff, rgba(0,0,0,0)),
+        radial-gradient(1px 1px at 115px 55px, #fff, rgba(0,0,0,0)),
+        radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0,0,0,0));
+      background-repeat: repeat;
+      background-size: 200px 200px;
+      animation: zoom 5s infinite;
+      opacity: 0;
+    }
+    
+    .stars:nth-child(1) {  background-position: 50% 50%;  animation-delay: 0s;}
+    .stars:nth-child(2) {  background-position: 20% 60%;  animation-delay: 1s;}
+    .stars:nth-child(3) {  background-position: -20% -30%;  animation-delay: 2s;}
+    .stars:nth-child(4) {  background-position: 40% -80%;  animation-delay: 3s;}
+    .stars:nth-child(5) {  background-position: -20% 30%;  animation-delay: 4s;}
+    
+    @keyframes zoom {
+    0% { opacity: 0;transform: scale(0.5);animation-timing-function: ease-in;} 
+    85% {opacity: 1;transform: scale(2.8);animation-timing-function: linear;}
+    100% {opacity: 0;transform: scale(3.5);}
+    }
+    
+    </style>
+</head>
+<body>
+    <div id="starField">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+      </div>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="../images/common/Logo.png" alt="">
+            </div>
+
+            <span class="logo_name">HAVEN</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="../Homepage/homepage.html">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Home</span>
+                </a></li>
+                <li><a href="../Haven/therapy_landing.html">
+                    <i class="uil uil-user-md"></i>
+                    <span class="link-name">Therapy</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-comment-dots"></i>
+                    <span class="link-name">Support Group</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-brain"></i>
+                    <span class="link-name">Sanctuary</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Resources</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-basketball"></i>
+                    <span class="link-name">Assessments</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+        </div>
+
+        <div class="dash-content">
+            <center>
+                <h5>
+                    Welcome to Sanctuary
+                </h5>     
+            </center>
+
+             <!--List Start-->
+             <section class="option">
+                <div class="box-container">
+                    <a href="category_landing.html"> 
+                        <div class="box">
+                            <img src="../images/homepage/therapy.png" alt="" class="album">
+                          <!-- <img src="images/assessment.png" alt="" class="album"> -->
+                        <div class="name">Create with HavenAI</div>
+                       </div>
+                    </a>
+
+                    <a href="category_landing.html"> 
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="../images/common/Logo.png" alt="" class="album">
+                           <div class="name">Explore</div>
+                           
+                        </div>
+                    </a>
+                        
+    
+             </section>
+
+             
+        </div>
+        <br>
+        <br>
+        <br>
+
+        
+          <!--footer start-->
+     <footer class="footer">
+        <div class="container">
+           <div class="row">
+              <div class="footer-col">
+                 <h4>company</h4>
+                 <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                 </ul>
+              </div>
+              <div class="footer-col">
+                 <h4>get help</h4>
+                 <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Meditation</a></li>
+                    <li><a href="#">Support Group</a></li>
+                    <li><a href="#">Resources</a></li>
+                 </ul>
+              </div>
+              <div class="footer-col">
+                 <h4>various Resources</h4>
+                 <ul>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Documents</a></li>
+                 </ul>
+              </div>
+              <div class="footer-col">
+                 <h4>follow us</h4>
+                 <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+     
+    <!--footer end-->
+    </section>
+
+    
+
+    <script src="../../Themes/side_bar/slide_bar.js"></script>
+    
+
+</body>
+</html>
